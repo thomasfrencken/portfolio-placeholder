@@ -2,8 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,900&display=swap');
 
 @font-face {
-  font-family:'Bogam';
-  src: url('Bogam.woff') format('woff'),
+    font-family: 'BogamRegular';
+    src: url("../BogamRegular.eot");
+    src: url("../BogamRegular.ttf");
+    src: url("../BogamRegular.woff");
+    src: url("../BogamRegular.woff2");
 }
 
 /* regular 400 */
@@ -13,7 +16,7 @@
 /* basic typography styling */
 
 h1, h2, h3, h4 {
-  font-family: 'Bogam', sans-serif;
+  font-family: 'BogamRegular', sans-serif;
   font-size: 16px;
   font-weight: normal;
 }

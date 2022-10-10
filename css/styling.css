@@ -10,8 +10,11 @@ body {
   font-size: 16px;
 }
 
-a, p {
+a {
   color: rgba(255,255,255,0.4);
-  margin-top: 120px;
   text-decoration: none;
+}
+
+h1 {
+  margin-bottom: 120px;
 }
