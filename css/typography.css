@@ -1,0 +1,53 @@
+/* included font files */
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,900&display=swap');
+
+@font-face {
+  font-family:'BogamRegular';
+  src: url('BogamRegular.eot');
+  src: url('BogamRegular.eot?#iefix') format('embedded-opentype'),
+       url('BogamRegular.svg#BogamRegular') format('svg'),
+       url('BogamRegular.ttf') format('truetype'),
+       url('BogamRegular.woff') format('woff'),
+       url('BogamRegular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* regular 400 */
+/* medium 500 */
+/* black 900 */
+
+/* basic typography styling */
+
+h1, h2, h3, h4 {
+  font-family: 'BogamRegular', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+a, p {
+  font-family: 'MavenPro', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#outlined {
+-webkit-text-fill-color: #121212; /* Will override color (regardless of order) */
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: white;
+}
+
+/* specific typography styling */
+
+h1 {
+  font-size: 500px;
+  line-height: 0.7;
+ }
+
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 200px;
+    line-height: 1;
+  }
+}

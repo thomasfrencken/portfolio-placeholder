@@ -1,0 +1,53 @@
+/* styling properties for animated elements */
+
+
+/* hover animation */
+/* rotating the logo 'backwards' */
+.nav-left :hover{
+  animation: clockwise-rotation 300ms linear;
+  animation-delay: 200ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes clockwise-rotation {
+  0%   {transform: rotate(90deg);}
+  100% {transform: rotate(180deg);}
+}
+
+/* rotating logo */
+.rotate {
+  animation: rotation 1500ms linear;
+}
+
+@keyframes rotation {
+  0%   {transform: rotate(90deg);}
+  60%  {transform: rotate(90deg);}
+  80%  {transform: rotate(-20deg);}
+  90%  {transform: rotate(10deg);}
+  100% {transform: rotate(0deg);}
+}
+
+/* tickertape */
+  .ticker-wrap {
+    overflow: hidden;
+  padding: 100px;
+  }
+
+  .ticker-move {
+    display: inline-flex;
+    animation: ticker linear 120s infinite;
+  }
+
+  .ticker-item {
+    box-sizing: border-box;
+    margin-right: 200px;
+  }
+
+  @keyframes ticker {
+    0% { transform: translate3d(0%, 0, 0); }
+    100% { transform: translate3d(-100%, 0, 0); }
+  }
+
+
+/* optimising pageload animation for small devices */
+@media screen and (max-width: 768px) {

@@ -1,0 +1,18 @@
+/* styling for base layout templates */
+/* layout for index template */
+
+.navigation {
+  display: flex;
+  margin: 40px;
+}
+
+.nav-left {
+  height: 40px;
+  width: 40px;
+}
+
+.nav-right {
+  height: 40px;
+  width: 40px;
+  margin-left: auto;
+}
