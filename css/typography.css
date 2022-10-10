@@ -9,6 +9,15 @@
     src: url("../BogamRegular.woff2");
 }
 
+@font-face {
+      font-family: 'BogamRegular'; !important
+      src: url('fonts/BogamRegular.eot');
+      src: url('fonts/BogamRegular.eot?#iefix') format('embedded-opentype'),
+           url('fonts/BogamRegular.woff2') format('woff2'),
+           url('fonts/BogamRegular.woff') format('woff'),
+           url('fonts/BogamRegular.ttf') format('truetype'),
+  }
+
 /* regular 400 */
 /* medium 500 */
 /* black 900 */
