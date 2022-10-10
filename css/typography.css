@@ -5,7 +5,6 @@
   font-family:'BogamRegular';
   src: url('BogamRegular.eot');
   src: url('BogamRegular.eot?#iefix') format('embedded-opentype'),
-       url('BogamRegular.svg#BogamRegular') format('svg'),
        url('BogamRegular.ttf') format('truetype'),
        url('BogamRegular.woff') format('woff'),
        url('BogamRegular.woff2') format('woff2');

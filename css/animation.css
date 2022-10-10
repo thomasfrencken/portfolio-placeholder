@@ -28,7 +28,7 @@
 }
 
 /* tickertape */
-  .ticker-wrap {
+  .tickertape {
     overflow: hidden;
   padding: 100px;
   }
@@ -51,3 +51,8 @@
 
 /* optimising pageload animation for small devices */
 @media screen and (max-width: 768px) {
+
+  .tickertape {
+    overflow: hidden;
+  padding: 40px;
+  }
