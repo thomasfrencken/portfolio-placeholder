@@ -1,10 +1,6 @@
 /* included font files */
 @import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,900&display=swap');
-
-@font-face {
-  font-family:'Bogam';
-  src: url('Bogam.woff') format('woff'),
-}
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 /* regular 400 */
 /* medium 500 */
@@ -13,7 +9,7 @@
 /* basic typography styling */
 
 h1, h2, h3, h4 {
-  font-family: 'Bogam', sans-serif;
+  font-family: 'Righteous', sans-serif;
   font-size: 16px;
   font-weight: normal;
 }
@@ -37,10 +33,13 @@ h1 {
   line-height: 0.7;
  }
 
+.disclaimed {
+  font-size: 10px;
+}
 
 @media screen and (max-width: 1024px) {
   h1 {
     font-size: 200px;
-    line-height: 1;
+    line-height: 0.7;
   }
 }

@@ -3,15 +3,16 @@
 
 /* hover animation */
 /* rotating the logo 'backwards' */
-.nav-left :hover{
-  animation: clockwise-rotation 300ms linear;
+.icon-logo :hover{
+  animation: clockwise-rotation 800ms linear;
   animation-delay: 200ms;
   animation-fill-mode: forwards;
 }
 
 @keyframes clockwise-rotation {
   0%   {transform: rotate(90deg);}
-  100% {transform: rotate(180deg);}
+  50% {transform: rotate(180deg);}
+  100% {transform: rotate(0deg);}
 }
 
 /* rotating logo */

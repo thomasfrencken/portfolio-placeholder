@@ -1,6 +1,11 @@
 /* styling for base layout templates */
 /* layout for index template */
 
+.center{
+  position: relative;
+}
+
+
 .navigation {
   display: flex;
   margin: 40px;
@@ -14,5 +19,43 @@
 .nav-right {
   height: 40px;
   width: 40px;
-  margin-left: auto;
+}
+
+.sticky {
+  bottom: 0;
+  position: fixed;
+}
+
+.sticky-wrapper {
+  align-items: center;
+  display: flex;
+  min-height: 80px;
+  width: 100vw;
+}
+
+.sticky-left {
+  margin-left: 40px;
+  width: 50vw;
+}
+
+.sticky-right {
+  height: 40px;
+  margin-right: 40px;
+  position: absolute;
+  right: 0;
+  width: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .sticky-wrapper {
+    align-items: center;
+    display: flex;
+    min-height: 90px;
+    width: 100vw;
+  }
+
+  .sticky-right {
+  }
+
 }
