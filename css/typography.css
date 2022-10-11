@@ -33,10 +33,13 @@ h1 {
   line-height: 0.7;
  }
 
+.disclaimed {
+  font-size: 10px;
+}
 
 @media screen and (max-width: 1024px) {
   h1 {
     font-size: 200px;
-    line-height: 1;
+    line-height: 0.7;
   }
 }
