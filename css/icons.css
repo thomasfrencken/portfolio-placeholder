@@ -8,3 +8,10 @@
   stroke: #fff;
   stroke-width: 1;
 }
+
+@media (prefers-color-scheme: light) {
+      /* dark theme styles */
+      .icon-logo{
+        stroke:#000;
+      }
+    }
