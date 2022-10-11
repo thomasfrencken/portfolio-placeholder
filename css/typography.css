@@ -1,22 +1,6 @@
 /* included font files */
 @import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,900&display=swap');
-
-@font-face {
-    font-family: 'BogamRegular';
-    src: url("../BogamRegular.eot");
-    src: url("../BogamRegular.ttf");
-    src: url("../BogamRegular.woff");
-    src: url("../BogamRegular.woff2");
-}
-
-@font-face {
-      font-family: 'BogamRegular'; !important
-      src: url('fonts/BogamRegular.eot');
-      src: url('fonts/BogamRegular.eot?#iefix') format('embedded-opentype'),
-           url('fonts/BogamRegular.woff2') format('woff2'),
-           url('fonts/BogamRegular.woff') format('woff'),
-           url('fonts/BogamRegular.ttf') format('truetype'),
-  }
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 /* regular 400 */
 /* medium 500 */
@@ -25,7 +9,7 @@
 /* basic typography styling */
 
 h1, h2, h3, h4 {
-  font-family: 'BogamRegular', sans-serif;
+  font-family: 'Righteous', sans-serif;
   font-size: 16px;
   font-weight: normal;
 }
